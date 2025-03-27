@@ -144,7 +144,8 @@ img {
   text-decoration: none;
 }
 
-.title:hover {
+.title:hover,
+.title:focus {
   color: var(--primary-color);
   cursor: pointer;
 }
