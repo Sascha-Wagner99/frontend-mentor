@@ -57,12 +57,12 @@
 
 body {
   background-color: var(--primary-color);
-  padding-inline: var(--spacing-sm);
 }
 
 main {
   display: flex;
   min-block-size: 100svh;
+  padding: var(--spacing-lg);
   align-items: center;
   justify-content: center;
 }
@@ -102,7 +102,7 @@ img {
 
 .white-bg-card {
   background-color: var(--white);
-  max-inline-size: min(24rem, 87%);
+  max-inline-size: 24rem;
   border-radius: 20px;
   border: solid var(--dark-color) 1px;
   box-shadow: var(--spacing-sm) var(--spacing-sm) 0 black;
