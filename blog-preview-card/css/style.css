@@ -47,7 +47,7 @@
   font-display: swap;
 }
 
-@media (width <= 23.4375rem) {
+@media (width <= 25rem) {
   :root {
     --text-preset-1-size: 1.25rem;
     --text-preset-2-size: 0.875rem;
@@ -128,7 +128,7 @@ img {
   background-color: var(--primary-color);
   padding-block: var(--spacing-xs);
   padding-inline: var(--spacing-md);
-  @media (width <= 23.4375rem) {
+  @media (width <= 25rem) {
     font-size: var(--spacing-md);
   }
 }
