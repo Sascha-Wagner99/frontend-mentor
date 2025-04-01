@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --grey-900: #141414;
+  --grey-800: #1f1f1f;
+  --grey-700: #333333;
+  --green: #c4f82a;
+  --white: #ffffff;
+
+  /* Font Families */
+  --inter: "inter", system-ui, sans-serif;
+  --inter-bold: "inter-bold", system-ui, sans-serif;
+
+  /* Font Sizes */
+  --regular-font: 0.875rem; /* 14px */
+  --big-font: 1.5rem; /* 24px */
+
+  /* Font Settings */
+  --line-height: 1.5;
+
+  /* Spacing */
+  --spacing-50: 0.25rem; /* 4px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-150: 0.75rem; /* 12px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-500: 2.5rem; /* 40px */
+}
+
+body {
+  background-color: var(--grey-900);
+  color: var(--white);
+}
+
+main {
+  min-block-size: 100svh;
+  padding: var(--spacing-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing-300);
+  background-color: var(--grey-800);
+  border-radius: 12px;
+  padding: var(--spacing-300);
+  flex-grow: 1;
+  max-inline-size: 24rem;
+
+  @media (width >= 50rem) {
+    padding: var(--spacing-500);
+  }
+}
+
+.avatar-img {
+  border-radius: 50%;
+  max-width: 5.5rem;
+  margin-inline: auto;
+}
+.name-location {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-50);
+}
+
+.name-location p {
+  color: var(--green);
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
+
+.sm-button {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--grey-700);
+  padding: var(--spacing-150);
+  border-radius: 8px;
+}
+
+.sm-button:hover,
+.sm-button:focus {
+  background-color: var(--green);
+  color: var(--grey-700);
+}
+
+.sm-button:not(:hover) {
+  transition-duration: 1s;
+}
+
+/* custom fonts */
+@font-face {
+  font-family: "inter";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter-bold";
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+  font-display: swap;
+}
+
+.text-preset-1 {
+  font-family: var(--inter-bold);
+  font-size: var(--big-font);
+  line-height: var(--line-height);
+  font-weight: 600;
+}
+
+.text-preset-2 {
+  font-family: var(--inter);
+  font-size: var(--regular-font);
+  line-height: var(--line-height);
+}
+
+.text-preset-2-bold {
+  font-family: var(--inter-bold);
+  font-size: var(--regular-font);
+  line-height: var(--line-height);
+}
