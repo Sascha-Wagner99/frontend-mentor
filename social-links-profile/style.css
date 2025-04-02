@@ -88,11 +88,15 @@ img {
 }
 
 .sm-button {
-  text-decoration: none;
-  color: var(--white);
+  list-style: none;
   background-color: var(--grey-700);
   padding: var(--spacing-150);
   border-radius: 8px;
+}
+
+.sm-button a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .sm-button:hover,
