@@ -1,3 +1,9 @@
+:root {
+  /* Colors */
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,4 +13,29 @@
 img {
   display: block;
   max-inline-size: 100%;
+}
+
+@font-face {
+  font-family: "Young Serif Regular";
+  src: url("/src/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit Regular";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+
+.text-preset-1 {
+  font-family: "Young Serif Regular";
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: "Outfit Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
 }

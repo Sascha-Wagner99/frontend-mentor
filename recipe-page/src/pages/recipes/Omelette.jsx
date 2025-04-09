@@ -5,6 +5,7 @@ function Omelette() {
   return (
     <>
       <TopImage />
+      <TextContent />
     </>
   );
 }
