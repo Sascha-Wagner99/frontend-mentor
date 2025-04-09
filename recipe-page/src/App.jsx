@@ -1,7 +1,7 @@
 import "./App.css";
-
+import Omelette from "./pages/recipes/Omelette";
 function App() {
-  return <></>;
+  return <Omelette />;
 }
 
 export default App;
