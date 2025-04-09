@@ -2,6 +2,8 @@
   /* Colors */
   --stone-900: #312e2c;
   --stone-600: #5f564d;
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
 }
 
 * {
@@ -25,6 +27,16 @@ img {
   src: url("/src/assets/fonts/outfit/static/Outfit-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Outfit SemiBold";
+  src: url("/src/assets/fonts/outfit/static/Outfit-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Outfit Bold";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+
 .text-preset-1 {
   font-family: "Young Serif Regular";
   font-weight: normal;
@@ -33,8 +45,23 @@ img {
   letter-spacing: 0;
 }
 
+.text-preset-3 {
+  font-family: "Outfit SemiBold";
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
 .text-preset-4 {
   font-family: "Outfit Regular";
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.text-preset-4-bold {
+  font-family: "Outfit Bold";
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0;
