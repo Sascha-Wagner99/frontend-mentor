@@ -4,6 +4,7 @@
   --stone-600: #5f564d;
   --rose-800: #7a284e;
   --rose-50: #fff7fb;
+  --brown-800: #854632;
 }
 
 * {
@@ -41,6 +42,14 @@ img {
   font-family: "Young Serif Regular";
   font-weight: normal;
   font-size: 2.5rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: "Young Serif Regular";
+  font-weight: normal;
+  font-size: 1.75rem;
   line-height: 1;
   letter-spacing: 0;
 }

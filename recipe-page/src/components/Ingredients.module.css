@@ -1,0 +1,24 @@
+.IngredientsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.SubHeading {
+  color: var(--brown-800);
+}
+
+.IngredientsList {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.IngredientsList li {
+  color: var(--stone-600);
+}
+
+.IngredientsList li::marker {
+  color: var(--brown-800);
+}
